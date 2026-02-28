@@ -42,7 +42,7 @@ MOD_LOG_CHANNEL = 1477311063631466638      # Channel ID for moderation logs
 JOIN_LOG_CHANNEL = 1477311096661606474      # Channel ID for join/leave logs
 # Channel ID for message edit/delete logs
 MSG_LOG_CHANNEL = 1477311117633257503
-BLACKLISTED_WORDS = []        # List of words to auto-delete
+BLACKLISTED_WORDS = ["fuck", "fucking", "motherfucker", "mf", "shit", "bullshit", "bitch", "bitches", "asshole", "dick", "pussy", "bastard", "slut", "whore", "cunt", "nigger", "nigga", "faggot", "retard", "kike", "chink", "paki", "porn", "porno", "hentai", "nudes", "onlyfans", "sex", "sexy", "blowjob", "handjob", "cum", "dickpic", "boobs", "tits", "kys", "kill yourself", "go die", "hang yourself", "cut yourself", "loser", "noob", "dogshit", "trash", "stupid", "idiot"]        # List of words to auto-delete
 ANTI_LINK_ENABLED = True      # Delete links posted by non-staff users
 ANTI_SPAM_THRESHOLD = 5        # Messages within 5 seconds = spam
 STAFF_ROLE_IDS = [1477310091605835869]        # Role IDs that bypass auto-mod
