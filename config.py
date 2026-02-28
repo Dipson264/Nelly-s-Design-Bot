@@ -38,7 +38,7 @@ CURRENCY_NAME = "coins"
 CURRENCY_SYMBOL = "🪙"
 
 # ── Moderation ─────────────────────────────────────────────────────────────
-MOD_LOG_CHANNEL = 1477309979651215375      # Channel ID for moderation logs
+MOD_LOG_CHANNEL = 1477311063631466638      # Channel ID for moderation logs
 JOIN_LOG_CHANNEL = 1477311096661606474      # Channel ID for join/leave logs
 # Channel ID for message edit/delete logs
 MSG_LOG_CHANNEL = 1477311117633257503
