@@ -97,7 +97,7 @@ class CommunityBot(commands.Bot):
 async def main():
     keep_alive()
     async with CommunityBot() as bot:
-        await bot.start(config.BOT_TOKEN
+        await bot.start(config.BOT_TOKEN)
 
 if __name__ == "__main__":
     asyncio.run(main())
