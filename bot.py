@@ -1,5 +1,5 @@
 # bot.py — Entry point. Run this file to start the bot: python bot.py
-
+from keep_alive import keep_alive
 import asyncio
 import logging
 import os
@@ -95,8 +95,9 @@ class CommunityBot(commands.Bot):
 
 
 async def main():
-    async with CommunityBot() as bot:
-        await bot.start(config.BOT_TOKEN)
+    keep_alive()
+        async with CommunityBot() as bot:
+            await bot.start(config.BOT_TOKEN
 
 
 if __name__ == "__main__":
